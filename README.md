@@ -1,5 +1,5 @@
 # Auto_plant_watering
-Monitoring and managing humidity levels on arduino IDE by Arkalion2680   
+Monitoring and managing humidity levels on arduino IDE 
 
 COMPONENTS REQUIRED: 
 -- Arduino UNO   
@@ -13,6 +13,7 @@ USEFUL NOTES:
 -- DO NOT USE PIN 13 on the arduino to trigger the pump - it's used by the bootloader and will cause the pump firing on and off at power ON/reboot   
 -- make sure to callibrate the pump by changing the line with your own sensor readings analogRead(A0) where 490=YOUR_WET_VALUE and 1023=YOUR_DRY_VALUE   
 -- adjust the delay if needed - giving it 1min(60000ms) seems to be the enough for letting the dirt absorb the water and read stable water levels   
--- you might want to use non-mineral water as it can cause long term corrosion depending on your pump
+-- you might want to use non-mineral water as it can cause long term corrosion depending on your pump   
+-- can also work on DIGISPARK for a more compact version of the system   
 
 ENJOY HAVING AN ARDUINO TAKING CARE OF YOUR GREEN FRIENDS FOR YOU

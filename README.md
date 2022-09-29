@@ -14,4 +14,4 @@ USEFUL NOTES:
 -- make sure to callibrate the pump by changing the following line with your own sensor readings analogRead(A0) where 490=YOUR_WET_VALUE and 1023=YOUR_DRY_VALUE
 -- adjust the delay if needed - giving it 1min(60000ms) seems to be the enough for letting the dirt absorb the water and read stable water levels
 
-ENJOY!
+ENJOY HAVING AN ARDUINO TAKING CARE OF YOUR GREEN FRIENDS FOR YOU
